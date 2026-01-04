@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      background-color: hsl(0, 0%, 8%);
+      font-size: 14px;
+      color: hsl(0, 0%, 100%);
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+    }
+
+    section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .main-container {
+      background-color: hsl(0, 0%, 12%);
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow:0px 0px 0px rgba(0,0,0,2);
+ 
+    }
+    .author-img {
+      width: 60px;
+      border-radius: 50%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      align-items: center;
+      margin: 0px auto;
+    }
+    .button-container {
+      text-align: center;
+      font-weight: 700px;
+      display: flex;
+      flex-direction: column;
+    }
+    .f-b,
+    .s-b,
+    .t-b,
+    .fourth-b,
+    .fifth-b {
+      background-color: hsl(0, 0%, 22%);
+      border-radius: 5px;
+      padding: 12px;
+      margin: 5px 0;
+      transition: 0.3s;
+    }
+    
+    .f-b:active {
+      background-color: hsl(75, 94%, 57%);
+      cursor: pointer;
+      color: black;
+    }
+    .s-b:active {
+      background-color: hsl(75, 94%, 57%);
+      cursor: pointer;
+      color: black;
+    }
+    .t-b:active {
+      background-color: hsl(75, 94%, 57%);
+      cursor: pointer;
+      color: black;
+    }
+     .fifth-b:active {
+      background-color: hsl(75, 94%, 57%);
+      cursor: pointer;
+      color: black;
+    } 
+    .fourth-b:active {
+    background-color: hsl(75, 94%, 57%);
+      cursor: pointer;
+      color: black;
+    }
+    .f-p {
+    font-size: 18px;
+    margin-bottom: 0px;
+    }
+    .s-p {
+    color: hsl(75, 94%, 57%);
+    margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="main-container">
+      <div>
+        <img class="author-img" src="/assets/images/avatar-jessica.jpeg" alt="author-img">
+      </div>
+
+      <div class="content-container">
+        <p class="f-p">Jessica Randall</p>
+        <p class="s-p">London, United Kingdom</p>
+        <p class="t-p">"Front-end developer and avid reader."</p>
+      </div>
+    
+      <div class="button-container">
+        <p class="f-b">Github</p>
+        <p class="s-b">Frontend Mentor</p>
+        <p class="t-b">LinkedIn</p>
+        <p class="fourth-b">Twitter</p>
+        <p class="fifth-b">Instagram</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/T-kesh" target="_blank">Keshinro Tanitoluwa Joseph</a>.
+    <p>&copy; copyright 2024. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
